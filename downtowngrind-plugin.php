@@ -21,3 +21,5 @@ function create_post_type() {
 		)
 	);
 }
+
+add_filter('widget_text', 'do_shortcode');
